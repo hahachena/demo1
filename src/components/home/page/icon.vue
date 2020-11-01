@@ -99,6 +99,7 @@ export default {
 
 <style scoped>
 .icons {
+  background: #fff;
   width: 100%;
   overflow: hidden;
 }

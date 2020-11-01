@@ -17,6 +17,7 @@ export default {};
 
 <style scoped>
 .location {
+  background: #fff;
   display: flex;
   position: relative;
 }
