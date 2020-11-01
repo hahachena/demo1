@@ -24,7 +24,7 @@ export default {};
 .header{
     width: 100%;
     height: .88rem;
-    background-color:blue;
+    background-color:#17c0c8;
     color: #fff;
     font-size: .36rem;
     display: flex;
