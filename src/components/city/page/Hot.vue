@@ -4,14 +4,12 @@
 
     <ul class="hot-list">
       <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
-      <li class="hot-item">北京</li>
+      <li class="hot-item">上海</li>
+      <li class="hot-item">西安</li>
+      <li class="hot-item">三亚</li>
+      <li class="hot-item">丽江</li>
+      <li class="hot-item">桂林</li>
+      
     </ul>
   </div>
 </template>

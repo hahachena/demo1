@@ -3,22 +3,19 @@
     <div class="sort-title">字母排序</div>
 
     <ul class="sort-list">
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
-      <li class="sort-item">A</li>
+      <li class="sort-item" v-for="city in cities" :key='city.id'>
+          {{ city.title }}
+      </li>
+      
     </ul>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+    props:['cities']
+
+};
 </script>
 
 <style scoped>
