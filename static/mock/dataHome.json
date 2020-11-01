@@ -1,0 +1,192 @@
+{
+    "data":[
+        {
+            "city":"北京",
+            "swiperList": [
+                {
+                  "id": "01",
+                  "imgURl": "/api/img/swiper1.jpeg"
+                },
+                {
+                  "id": "02",
+                  "imgURl": "/api/img/swiper2.jpeg"
+                },
+                {
+                  "id": "03",
+                  "imgURl":"/api/img/swiper3.jpeg"
+                },
+                {
+                  "id": "04",
+                  "imgURl":"/api/img/swiper4.jpeg"
+                },
+                {
+                  "id": "05",
+                  "imgURl":"/api/img/swiper5.jpeg"
+                }
+              ],
+              "iconsList": [
+                {
+                  "id": "01",
+                  "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/hotel.png",
+                  "title": "酒店"
+                },
+                {
+                  "id": "02",
+                  "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/flight.png",
+                  "title": "机票"
+                },
+                {
+                  "id": "03",
+                  "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/train.png",
+                  "title": "火车票"
+                },
+                {
+                  "id": "04",
+                  "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/package.png",
+                  "title": "度假"
+                },
+                {
+                  "id": "05",
+                  "imgUrl": "//s.qunarzz.com/homenode/images/touchheader/piao.png",
+                  "title": "景点门票"
+                },
+                {
+                  "id": "06",
+                  "imgUrl":
+                    "https://picbed.qunarzz.com/f5e5770393d759578962e53ee67798c8.png",
+                  "title": "海外酒店"
+                },
+                {
+                  "id": "07",
+                  "imgUrl":
+                    "https://picbed.qunarzz.com/a36d2288f19e54562338f4d8ef986288.png",
+                  "title": "低价机票"
+                },
+                {
+                  "id": "08",
+                  "imgUrl":
+                    "https://picbed.qunarzz.com/377db8cb2143aebf01869c9baad3d325.png",
+                  "title": "汽车票船票"
+                },
+                {
+                  "id": "09",
+                  "imgUrl":
+                    "https://picbed.qunarzz.com/ae617a31e0bd5803d76918b817f6d942.png",
+                  "title": "自由行"
+                },
+                {
+                  "id": "10",
+                  "imgUrl":
+                    "https://picbed.qunarzz.com/1316dc82d1ce6259686d5a68880e5a9d.png",
+                  "title": "攻略"
+                }
+              ],
+              "hotList": [
+                {
+                  "id": "01",
+                  "imgUrl":
+                    "//img1.qunarzz.com/sight/p65/201211/07/2dcda4e400ace9f993835fbb.jpg_256x160_b1a93ad3.jpg",
+                  "title": "龙门石窟",
+                  "mark": "280"
+                },
+                {
+                  "id": "02",
+                  "imgUrl":
+                    "//img1.qunarzz.com/sight/p0/1804/7f/7f80af3ddefeb12a3.img.jpg_256x160_2ea35e2a.jpg",
+                  "title": "郑州方特",
+                  "mark": "113"
+                },
+                {
+                  "id": "03",
+                  "imgUrl":
+                    "//img1.qunarzz.com/sight/p0/201405/27/544cae2aeb173cb6533ce6926b68f153.jpg_256x160_e80a446b.jpg",
+                  "title": "清明上河图",
+                  "mark": "35"
+                },
+                {
+                  "id": "04",
+                  "imgUrl":
+                    "//img1.qunarzz.com/sight/p0/1811/6c/6cbe2a1a22e6bab2a3.img.jpg_256x160_ccb05dda.jpg",
+                  "title": "竹林长寿山",
+                  "mark": "20"
+                },
+                {
+                  "id": "05",
+                  "imgUrl":
+                    "//imgs.qunarzz.com/sight/p0/201304/27/941d94ee97cc947cc8d65eac.jpg_256x144_8ccee147.jpg",
+                  "title": "丽江古城",
+                  "mark": "100"
+                },
+                {
+                  "id": "06",
+                  "imgUrl":"//imgs.qunarzz.com/sight/p0/1503/b9/b9a4593c73228f9c.water.jpg_256x144_7a371de3.jpg",
+                  "title": "玉龙雪山",
+                  "mark": "140"
+                },
+                {
+                  "id": "07",
+                  "imgUrl":
+                    "//imgs.qunarzz.com/sight/p0/1702/69/699283c4d5a1306fa3.img.jpg_256x144_5674cb4e.jpg",
+                  "title": "腾冲",
+                  "mark": "25"
+                },
+                 {
+                  "id": "08",
+                  "imgUrl":
+                    "//imgs.qunarzz.com/sight/p0/201305/30/c75a360da0e518d6c8d65eac.jpg_256x144_575b1bbf.jpg",
+                  "title": "滇池",
+                  "mark": "150"
+                }
+              ],
+              "likeList":[
+                {
+                    "id":"01",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg",
+                    "title":"金海湖风景区",
+                    "message":"1341条评论",
+                    "prise":"18.8",
+                    "map":"平谷区"
+                },
+                {
+                    "id":"02",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/fd16ccffb2e2376ff370bda3bebebd71.jpg",
+                    "title":"丽江古城",
+                    "message":"1981条评论",
+                    "prise":"133",
+                    "map":"丽江市"
+                }
+            ],
+            "vacationList":[
+                {
+                    "id":"01",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/6ff48e0e00432f823bf593deec6d3397.jpg",
+                    "title":"激流勇进，烧烤露营",
+                    "msg":"轻松水上漂，任我乐逍遥"
+                },
+                {
+                    "id":"02",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/729fced755d522ccfc280ef155f45518.jpg",
+                    "title":"激流勇进，烧烤露营",
+                    "msg":"在秘密花园，领略意大利风情"
+                },
+                {
+                    "id":"03",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/e86b37fef48851353d6f5ae0090cc974.jpg",
+                    "title":"激流勇进，烧烤露营",
+                    "msg":"带着相机去旅行，圆一场青海梦"
+                },
+                {
+                    "id":"04",
+                    "imgUrl":"//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/24d074328b5a26845ebb92be20b38754.jpg",
+                    "title":"激流勇进，烧烤露营",
+                    "msg":"陪你去三亚，陪你去天涯海角"
+                }
+            ]
+        },
+        {
+            "city":"上海"
+        }
+
+    ]
+
+}

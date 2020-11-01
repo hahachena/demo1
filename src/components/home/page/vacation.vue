@@ -26,34 +26,10 @@
 
 <script>
 export default {
+    props:['vacationList'],
     data(){
         return{
-            vacationList:[
-                {
-                    id:'01',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/6ff48e0e00432f823bf593deec6d3397.jpg',
-                    title:'激流勇进，烧烤露营',
-                    msg:'轻松水上漂，任我乐逍遥',
-                },
-                {
-                    id:'02',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/729fced755d522ccfc280ef155f45518.jpg',
-                    title:'激流勇进，烧烤露营',
-                    msg:'在秘密花园，领略意大利风情',
-                },
-                {
-                    id:'03',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/e86b37fef48851353d6f5ae0090cc974.jpg',
-                    title:'激流勇进，烧烤露营',
-                    msg:'带着相机去旅行，圆一场青海梦',
-                },
-                {
-                    id:'04',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/24d074328b5a26845ebb92be20b38754.jpg',
-                    title:'激流勇进，烧烤露营',
-                    msg:'陪你去三亚，陪你去天涯海角',
-                },
-            ]
+            
         }
     }
     

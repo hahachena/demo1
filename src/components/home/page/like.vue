@@ -32,26 +32,9 @@
 
 <script>
 export default {
+    props:['likeList'],
     data(){
         return{
-            likeList:[
-                {
-                    id:'01',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg',
-                    title:'金海湖风景区',
-                    message:'1341条评论',
-                    prise:'18.8',
-                    map:'平谷区',
-                },
-                {
-                    id:'02',
-                    imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/fd16ccffb2e2376ff370bda3bebebd71.jpg',
-                    title:'丽江古城',
-                    message:'1981条评论',
-                    prise:'133',
-                    map:'丽江市',
-                },
-            ]
         }
     }
     
