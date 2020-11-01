@@ -7,6 +7,7 @@
     <home-activity></home-activity>
     <home-hot></home-hot>
     <home-like></home-like>
+    <home-vacation></home-vacation>
   </div>
 </template>
 
@@ -18,6 +19,7 @@ import HomeLocation from "./page/location";
 import HomeActivity from "./page/activity";
 import HomeHot from "./page/hot";
 import HomeLike from "./page/like";
+import HomeVacation from "./page/vacation";
 
 export default {
   components: {
@@ -28,6 +30,7 @@ export default {
     HomeActivity,
     HomeHot,
     HomeLike,
+    HomeVacation,
 
   }
 };
