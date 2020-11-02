@@ -14,10 +14,13 @@
     <div class="img-swiper" v-show="imgSwiper"
     @click="hideSwiper"
     >
-      <img
-        src="//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg"
-        alt
-      />
+      <swiper ref="mySwiper" :options="swiperOptions">
+      <swiper-slide v-for="item in bannerList" :key="item.id">
+        <img :src="item.imgUrl" />
+      </swiper-slide>
+
+      <div class="swiper-pagination" slot="pagination"></div>
+    </swiper>
     </div>
   </div>
 </template>
@@ -26,6 +29,26 @@
 export default {
   data() {
     return {
+        swiperOptions:{
+            pagination:{
+                el:'.swiper-pagination',
+                type:'fraction'
+            }
+        },
+        bannerList:[
+            {
+                id:"01",
+                imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg'
+            },
+            {
+                id:"02",
+                imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg'
+            },
+            {
+                id:"03",
+                imgUrl:'//tr-osdcp.qunarzz.com/tr-osd-tr-manager/img/7d9b233c71cad13ded0013f9c9cec635.jpg'
+            },
+        ],
       imgSwiper: false
     };
   },
