@@ -16,8 +16,9 @@ export default {
     },
     data(){
         return{
-            cities:{}
-
+            cities:{
+                
+            }
         }
 
     },

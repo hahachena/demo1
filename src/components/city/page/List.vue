@@ -3,7 +3,8 @@
     <div >
       <div class="Hot">
         <div class="hot-title">热门城市</div>
-        <ul class="hot-list">
+        <ul class="hot-list" 
+        @click="change">
           <li class="hot-item">北京</li>
           <li class="hot-item">上海</li>
           <li class="hot-item">西安</li>
@@ -16,15 +17,21 @@
       <div class="Sort">
         <div class="sort-title">字母排序</div>
         <ul class="sort-list">
-          <li class="sort-item" v-for="city in cities" :key="city.id">{{ city.title }}</li>
+          <li class="sort-item" v-for="city in cities" :key="city.id"
+          @click="changeSort(city.title)"
+          >{{ city.title }}</li>
         </ul>
       </div>
 
       <div class="list">
-        <div v-for="city in cities" :key="city.id">
+        <div v-for="city in cities" :key="city.id"
+        :ref="city.title"
+        >
           <div class="list-title">{{ city.title }}</div>
           <ul class="list-msg">
-            <li class="list-item" v-for="item in city.lists" :key="item.id">{{ item }}</li>
+            <li class="list-item" v-for="item in city.lists" :key="item.id"
+             @click="change(item)"
+            >{{ item }}</li>
           </ul>
         </div>
       </div>
@@ -33,6 +40,7 @@
 </template>
 
 <script>
+import {mapMutations} from 'vuex';
 import BetterScroll from "better-scroll";
 // import BScroll from '@better-scroll/core'
 export default {
@@ -42,11 +50,22 @@ export default {
       scroll: ""
     };
   },
+  methods:{
+      changeSort(key){
+          this.scroll.scrollToElement(this.$refs[key][0])
+          console.log(this.$refs[key][0])
+      },
+      change(){
+          this.$router.push('/')
+          this.changeCity()
+      },
+      ...mapMutations(['changeCity'])
+  },
   mounted() {
     let container = this.$refs["container"];
-    let bs = new BetterScroll(container, {
+    this.scroll = new BetterScroll(container, {
       movable: true,
-    //   zoom: true
+      zoom: true
     });
   }
 };
